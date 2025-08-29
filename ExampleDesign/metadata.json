@@ -1,14 +1,15 @@
 {
-  "ProjectName": "FMD_QNC_template_project",
+  "ProjectName": "Scale4Edge",
   "Shuttle": "MPW 0.13µm Sep 2025(T594)",
   "Technology": "SG13CMOS",
   "Design": {
-    "DesignName": "FMD_QNC_template_design",
-    "FinalGdsName": "FMD_QNC_final_layout.gds",
-    "TopCellName": "FMD_QNC_final_layout",
-    "Width": "0.300mm",
-    "Height": "0.300mm",
-    "NumberOfSamples": "10"
+    "DesignName": "tetrisc_top",
+    "FinalGdsName": "FMD_QNC_tetrisc_top.gds",
+    "TopCellName": "tetrisc_top",
+    "Width": "4.770mm",
+    "Height": "4.770mm",
+    "NumberOfSamples":"10"
   },
   "FinalWaferThickness": "200um"
 }
+
