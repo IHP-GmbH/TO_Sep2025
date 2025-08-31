@@ -1,13 +1,13 @@
 {
-  "ProjectName": "FMD_QNC_template_project",
-  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "ProjectName": "QoSoC",
+  "Shuttle": "MPW 0.13µm Sep 2025 (T594)",
   "Technology": "SG13CMOS",
   "Design": {
-    "DesignName": "FMD_QNC_template_design",
-    "FinalGdsName": "FMD_QNC_final_layout.gds",
-    "TopCellName": "FMD_QNC_final_layout",
-    "Width": "0.300mm",
-    "Height": "0.300mm",
+    "DesignName": "QoSoC_top",
+    "FinalGdsName": "qosoc_final.gds",
+    "TopCellName": "qosoc_topcell",
+    "Width": "1.414mm",
+    "Height": "1.414mm",
     "NumberOfSamples": "10"
   },
   "FinalWaferThickness": "200um"
