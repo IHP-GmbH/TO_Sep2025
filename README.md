@@ -114,7 +114,10 @@ Go to `source` directory to modify the `rst` files.
 Since one of the principal goals of the OpenMPW runs is a creation of a silicon proven designs we expect from the designers to measure and validate the submitted design and then open source measurements results.
 This directory at the moment of the submission is only a placeholder for future measurements data. A report from the measurements can be part of the documentation. 
 
-## Acknoledgements
+
+
+---------------------------------------------
+## Acknowledgements
 
 We gratefully acknowledge the support and resources provided by **FOSSEE** (Free/Libre and Open Source Software for Education) team, IIT Bombay and [**IHP-GmbH**](https://www.ihp-microelectronics.com/) (Innovations for High Performance Microelectronics), Germany. Their contributions have been instrumental in enabling the development, tapeout, and submission of this open-source design as part of the September 2025 OpenMPW run based on the IHP 130 nm BiCMOS PDK.
 
