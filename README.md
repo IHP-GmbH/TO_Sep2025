@@ -113,3 +113,15 @@ Go to `source` directory to modify the `rst` files.
 
 Since one of the principal goals of the OpenMPW runs is a creation of a silicon proven designs we expect from the designers to measure and validate the submitted design and then open source measurements results.
 This directory at the moment of the submission is only a placeholder for future measurements data. A report from the measurements can be part of the documentation. 
+
+## Acknoledgements
+
+We gratefully acknowledge the support and resources provided by **FOSSEE** (Free/Libre and Open Source Software for Education) team, IIT Bombay and [**IHP-GmbH**](https://www.ihp-microelectronics.com/) (Innovations for High Performance Microelectronics), Germany. Their contributions have been instrumental in enabling the development, tapeout, and submission of this open-source design as part of the September 2025 OpenMPW run based on the IHP 130 nm BiCMOS PDK.
+
+This project was done by the [eSim Team](https://esim.fossee.in) as the part of the [FOSSEE](https://fossee.in/) initiative at IIT Bombay.
+
+FOSSEE (Free/Libre and Open Source Software for Education) project promotes the use of FLOSS tools in academia and research. The FOSSEE project is part of the National Mission on Education through Information and Communication Technology (ICT), Ministry of Education (MoE), Government of India. Below is the list of projects which are promoted by FOSSEE.
+
+## Contributors
+- Aditya Minocha(adityaminocha10@gmail.com), [eSim](https://esim.fossee.in/) Team, [FOSSEE](https://fossee.in/), IIT Bombay
+- Sumanto Kar(jeetsumanto123@gmail.com, sumantokar@iitb.ac.in), [eSim](https://esim.fossee.in/) Team, [FOSSEE](https://fossee.in/), IIT Bombay
