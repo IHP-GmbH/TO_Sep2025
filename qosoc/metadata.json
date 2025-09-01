@@ -1,0 +1,14 @@
+{
+  "ProjectName": "QoSoC",
+  "Shuttle": "MPW 0.13µm Sep 2025 (T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "QoSoC_top",
+    "FinalGdsName": "qosoc_final.gds",
+    "TopCellName": "qosoc_topcell",
+    "Width": "1.414mm",
+    "Height": "1.414mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}
