@@ -4,7 +4,7 @@
   "Technology": "SG13CMOS",
   "Design": {
     "DesignName": "FMD_QNC_Basic_CPU_design",
-    "FinalGdsName": "FMD_QNC_final_Basic_CPU_layout.gds",
+    "FinalGdsName": "FMD_QNC_Basic_CPU.gds",
     "TopCellName": "FMD_QNC_Basic_CPU",
     "Width": "1.400mm",
     "Height": "1.400mm",
