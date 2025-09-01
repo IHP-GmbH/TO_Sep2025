@@ -3,9 +3,9 @@
   "Shuttle": "MPW 0.13µm Sep 2025 (T594)",
   "Technology": "SG13CMOS",
   "Design": {
-    "DesignName": "biosignal_frontend_top",
-    "FinalGdsName": "biosignal_frontend_final.gds",
-    "TopCellName": "biosignal_frontend_topcell",
+    "DesignName": "FMD_QNC_biosignal_afe",
+    "FinalGdsName": "FMD_QNC_biosignal_afe.gds",
+    "TopCellName": "FMD_QNC_biosignal_afe",
     "Width": "1.400mm",
     "Height": "1.400mm",
     "NumberOfSamples": "10"
