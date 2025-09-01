@@ -1,0 +1,14 @@
+{
+  "ProjectName": "Balanced Audio Operational Amplifier",
+  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "balaudio_opamp",
+    "FinalGdsName": "balaudio_opamp_final_layout.gds",
+    "TopCellName": "balaudio_opamp_final_layout",
+    "Width": "0.700mm",
+    "Height": "0.750mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}
