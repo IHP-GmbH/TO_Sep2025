@@ -1,0 +1,14 @@
+{
+  "ProjectName": "Bio-Signal Frontend",
+  "Shuttle": "MPW 0.13µm Sep 2025 (T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "biosignal_frontend_top",
+    "FinalGdsName": "biosignal_frontend_final.gds",
+    "TopCellName": "biosignal_frontend_topcell",
+    "Width": "1.400mm",
+    "Height": "1.400mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}
