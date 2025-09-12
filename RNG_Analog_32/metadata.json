@@ -1,0 +1,14 @@
+{
+  "ProjectName": "RNG_32_ACA_cells",
+  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "RNG_Analog_32",
+    "FinalGdsName": "FMD_QNC_final_layout.gds",
+    "TopCellName": "FMD_QNC_final_layout",
+    "Width": "0.800mm",
+    "Height": "0.800mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}
