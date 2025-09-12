@@ -1,0 +1,14 @@
+{
+  "ProjectName": "sramblocks_testchip",
+  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "SRAMBlocksTest",
+    "FinalGdsName": "SRAMBlocksTest_filled.gds",
+    "TopCellName": "SRAMBlocksTest",
+    "Width": "3.600mm",
+    "Height": "5.000mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}
