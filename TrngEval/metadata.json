@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_TrngEval",
+  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "FMD_QNC_TrngEval",
+    "FinalGdsName": "FMD_QNC_TrngEval.gds.gz",
+    "TopCellName": "FMD_QNC_TrngEvalTop",
+    "Width": "1.414mm",
+    "Height": "1.414mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}
