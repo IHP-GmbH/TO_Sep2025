@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_cordic_board",
+  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "FMD_QNC_cordic_board",
+    "FinalGdsName": "FMD_QNC_cordic_board.gds",
+    "TopCellName": "FMD_QNC_cordic_board",
+    "Width": "0.600mm",
+    "Height": "0.600mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}
