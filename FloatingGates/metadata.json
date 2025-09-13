@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_Open",
+  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "FMD_QNC_FloateingGates",
+    "FinalGdsName": "FMD_QNC_FGate.gds",
+    "TopCellName": "FMD_QNC_FGate",
+    "Width": "1.600mm",
+    "Height": "1.600mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}

@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC",
+  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "FMD_QNC_MissMatch" ,
+    "FinalGdsName": "FMD_QNC_MissMatch.gds",
+    "TopCellName": "FMD_QNC_MissMatch",
+    "Width": "2.000mm",
+    "Height": "2.000mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}
