@@ -1,0 +1,14 @@
+{
+  "ProjectName": "picosoc_ac_controller",
+  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "picosoc_ac_controller",
+    "FinalGdsName": "FMD_QNC_final_layout.gds",
+    "TopCellName": "top_less_pads",
+    "Width": "1.414mm",
+    "Height": "1.414mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}

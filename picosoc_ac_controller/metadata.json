@@ -1,0 +1,8 @@
+   "DesignName": "picosoc_ac_controller",
+    "FinalGdsName": "FMD_QNC_final_layout.gds",
+    "TopCellName": "top_less_pads",
+    "Width": "1.5mm",
+    "Height": "1.5mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
