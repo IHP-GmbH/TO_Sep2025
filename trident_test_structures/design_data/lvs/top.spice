@@ -1,0 +1,91 @@
+** sch_path: /run/host/mainData/cernbox/PhD/TO_Sep2025/trident_test_structures/design_data/xschem/fullchip/top.sch
+
+.subckt top iovdd iovss IOPadAnalogGuardLayer pad_guard IOPadAnalog
++ hv_nmos_0u3_l045_guarded_drain hv_nmos_0u3_l045_guarded_gate hv_nmos_0u3_l045_guarded_source
++ lv_nmos_w0u15_l0u13_guarded_drain lv_nmos_w0u15_l0u13_guarded_gate lv_nmos_w0u15_l0u13_guarded_source
++ lv_nmos_w0u15_l10u0_guarded_drain lv_nmos_w0u15_l10u0_guarded_gate lv_nmos_w0u15_10u03_guarded_source
++ IOPadAnalog_clamps
++ IOPadAnalog_DCN_DCP_diodes
+*.PININFO iovdd:B iovss:B IOPadAnalogGuardLayer:B pad_guard:B IOPadAnalog:B
+X1 iovdd bondpad
+X2 iovss bondpad
+X3 IOPadAnalogGuardLayer bondpad
+x4 iovss pad_guard iovdd IOPadAnalogGuardLayer net2 IOPadAnalogGuardLayer
+x5 vss vdd iovss iovdd sg13g2_IOPadIOVdd
+x6 vss vdd iovss iovdd sg13g2_IOPadIOVss
+X7 pad_guard bondpad
+x8 vss vdd iovss iovdd IOPadAnalog net1 sg13g2_IOPadAnalog
+X9 IOPadAnalog bondpad
+R3 iovss iovss ptap1 A=21.0620673e-9 P=6.73748e-3
+
+x10 hv_nmos_0u3_l045_guarded_drain pad_guard hv_nmos_0u3_l045_guarded_gate iovss hv_nmos_0u3_l045_guarded_source hv_nmos_w0u3_l0u45_guarded
+X11 hv_nmos_0u3_l045_guarded_drain bondpad
+X12 hv_nmos_0u3_l045_guarded_gate bondpad
+X13 hv_nmos_0u3_l045_guarded_source bondpad
+
+X15 lv_nmos_w0u15_l0u13_guarded_drain bondpad
+X16 lv_nmos_w0u15_l0u13_guarded_gate bondpad
+X17 lv_nmos_w0u15_l0u13_guarded_source bondpad
+x14 lv_nmos_w0u15_l0u13_guarded_drain pad_guard lv_nmos_w0u15_l0u13_guarded_gate iovss lv_nmos_w0u15_l0u13_guarded_source lv_nmos_w0u15_l0u13_guarded
+
+X24 lv_nmos_w0u15_l10u0_guarded_drain bondpad
+X25 lv_nmos_w0u15_l10u0_guarded_gate bondpad
+X26 lv_nmos_w0u15_l10u0_guarded_source bondpad
+x27 lv_nmos_w0u15_l10u0_guarded_drain pad_guard lv_nmos_w0u15_l10u0_guarded_gate iovss lv_nmos_w0u15_l10u0_guarded_source hv_nmos_w0u3_l10u0_guarded
+
+
+x18 iovdd IOPadAnalog_clamps pad_guard iovss clamps
+X19 IOPadAnalog_clamps bondpad
+
+X21 IOPadAnalog_DCN_DCP_diodes bondpad
+x20 iovdd IOPadAnalog_DCN_DCP_diodes iovss pad_guard DCP_DCN_diodes
+
+X22 IOPadAnalog_secondary_protection bondpad
+x23 iovdd IOPadAnalog_secondary_protection net3 pad_guard iovss secondary_protection
+
+
+**** begin user architecture code
+.include ./sg13g2_io_no_spiceprefix.spice
+*.include '/foss/pdks/ihp-sg13g2/libs.ref/sg13g2_io/spice/sg13g2_io.spi'
+.include '/run/host/mainData/cernbox/PhD/TO_Sep2025/trident_test_structures/design_data/xschem/top/IOPadAnalogGuardLayer.spice'
+.ends
+
+.subckt hv_nmos_w0u3_l0u45_guarded drain guard gate bulk source
+*.PININFO gate:B drain:B source:B bulk:B guard:B
+M1 drain gate source bulk sg13_hv_nmos w=0.3u l=0.45u ng=1 m=1
+*R1 bulk sub! ptap1 A=6.084e-13 P=3.12e-06
+.ends
+
+.subckt lv_nmos_w0u15_l0u13_guarded drain guard gate bulk source
+*.PININFO gate:B drain:B source:B bulk:B guard:B
+M1 drain gate source bulk sg13_lv_nmos w=0.15u l=0.13u ng=1 m=1
+.ends
+
+** sch_path: /run/host/mainData/cernbox/PhD/TO_Sep2025/trident_test_structures/design_data/xschem/IOPadAnalog_submodules/clamps.sch
+.subckt clamps iovdd pad guard iovss
+*.PININFO iovdd:I iovss:I pad:I pad_guard:I
+x1 iovss iovdd pad sg13g2_Clamp_N20N0D
+x2 iovss iovdd pad sg13g2_Clamp_P20N0D
+.ends
+
+** sch_path: /run/host/mainData/cernbox/PhD/TO_Sep2025/trident_test_structures/design_data/xschem/IOPadAnalog_submodules/DCP_DCN_diodes.sch
+.subckt DCP_DCN_diodes iovdd pad iovss guard
+*.PININFO iovdd:I iovss:I pad:I pad_guard:I
+x1 iovss pad iovdd sg13g2_DCNDiode
+x2 pad iovdd iovss sg13g2_DCPDiode
+.ends
+
+** sch_path: /run/host/mainData/cernbox/PhD/TO_Sep2025/trident_test_structures/design_data/xschem/IOPadAnalog_submodules/secondary_protection.sch
+.subckt secondary_protection iovdd pad padres pad_guard iovss
+*.PININFO iovdd:B pad:B pad_guard:B iovss:B padres:B
+x1 iovdd iovss pad padres sg13g2_SecondaryProtection
+.ends
+
+** sch_path: /run/host/mainData/cernbox/PhD/TO_Sep2025/trident_test_structures/design_data/xschem/transistor_characterization/hv_nmos_w0u3_l10u0_guarded/hv_nmos_w0u3_l10u0_guarded.sch
+.subckt hv_nmos_w0u3_l10u0_guarded drain guard gate bulk source
+*.PININFO gate:B drain:B source:B bulk:B guard:B
+M1 drain gate source bulk sg13_hv_nmos w=0.3u l=10u ng=1 m=1
+*R1 bulk sub! ptap1 A=8.0574e-12 P=2.222e-05
+.ends
+
+

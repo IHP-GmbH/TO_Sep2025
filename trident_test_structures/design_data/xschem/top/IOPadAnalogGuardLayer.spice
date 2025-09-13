@@ -1,0 +1,41 @@
+.subckt IOPadAnalogGuardLayer iovss pad_guard iovdd pad padres
+*.PININFO iovss:B pad_guard:B iovdd:B pad:B padres:B
+
+*secondary protection
+R6 pad padres rppd w=1e-6 l=2e-6 m=1 b=0
+D5 pad_guard padres dantenna l=3.1u w=0.64u
+D6 iovss pad_guard dantenna l=3.1u w=0.64u
+D7 padres pad_guard dpantenna l=0.64u w=4.98u
+D8 pad_guard iovdd dpantenna l=0.64u w=4.98u
+*R7 iovss iovss ptap1 A=4.7192e-12 P=2.776e-05
+
+* pad_guard_to_vss
+M1 pad net1 pad_guard iovss sg13_hv_nmos w=176u l=600n ng=40 m=1
+R1 pad_guard net1 rppd w=0.5e-6 l=3.54e-6 m=1 b=0
+D1 iovdd pad pad_guard idiodevss_4kv m=2
+
+*pad_guard_to_vdd
+M2 pad net2 pad_guard iovdd sg13_hv_pmos w=532.8u l=600n ng=40 m=1
+R2 net2 pad_guard rppd w=0.5e-6 l=12.9e-6 m=1 b=0
+D2 pad_guard pad iovss diodevdd_4kv m=2
+*R3 iovss iovss ptap1 A=13.40688e-11 P=0.62864e-3
+
+* guard_vdd_first_stage_esd
+M3 pad_guard net3 iovdd iovdd sg13_hv_pmos w=532.8u l=600n ng=40 m=1
+R4 net3 iovdd rppd w=0.5e-6 l=12.9e-6 m=1 b=0
+D3 iovdd pad_guard iovss diodevdd_4kv m=2
+
+*guard_vss_first_stage_esd
+M4 pad_guard net4 iovss iovss sg13_hv_nmos w=176u l=600n as=80.74 PS=0.2171e-3 pd=0.2717e-3 ng=40 m=1
+R5 iovss net4 rppd w=0.5e-6 l=3.54e-6 m=1 b=0
+D4 iovdd pad_guard iovss diodevss_4kv m=2
+.ends
+
+** sch_path: /run/host/mainData/cernbox/PhD/TO_Sep2025/trident_test_structures/design_data/xschem/IOPadAnalogGuardLayer/pad_guard_to_vss_first_stage_esd.sch
+.subckt pad_guard_to_vss_first_stage_esd iovss pad_guard iovdd pad
+*.PININFO iovss:B pad_guard:B iovdd:B pad:B
+M6 pad net1 pad_guard iovss sg13_hv_nmos w=176u l=600n ng=40 m=1
+R9 pad_guard net1 rppd w=0.5e-6 l=3.54e-6 m=1 b=0
+D1 iovdd pad pad_guard idiodevss_4kv m=2
+.ends
+

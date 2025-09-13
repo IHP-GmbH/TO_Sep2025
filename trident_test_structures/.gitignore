@@ -1,0 +1,2 @@
+# Ignore all 'simulations' folders anywhere in the project
+**/simulations/

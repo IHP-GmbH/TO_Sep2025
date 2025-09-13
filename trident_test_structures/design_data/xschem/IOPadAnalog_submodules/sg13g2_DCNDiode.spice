@@ -1,0 +1,8 @@
+* SPICE3 file created from sg13g2_DCNDiode.ext - technology: ihp-sg13g2
+
+X0 VSUB cathode dantenna l=0 w=0
+X1 VSUB cathode dantenna l=0 w=0
+C0 anode cathode 3.50574f
+C1 anode guard 2.59423f
+C2 guard VSUB 3.84456f
+C3 anode VSUB 8.37275f

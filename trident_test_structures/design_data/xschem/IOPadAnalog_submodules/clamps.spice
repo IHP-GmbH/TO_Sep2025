@@ -1,0 +1,393 @@
+* SPICE3 file created from clamps.ext - technology: ihp-sg13g2
+
+.subckt sg13g2_Clamp_P20N0D pad iovss iovdd m3_9300_480# m3_8700_480# m3_10510_480#
++ m2_4940_480# m3_8090_480# m3_7490_480# m3_6890_480# m3_6280_480# m3_5670_480# m3_5070_480#
++ a_5044_476# m3_9900_480#
+X0 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X1 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X2 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X3 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X4 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X5 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X6 a_5044_476# iovdd iovss rppd l=12.9u w=0.5u
+X7 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X8 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X9 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X10 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X11 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X12 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X13 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X14 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X15 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X16 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X17 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X18 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X19 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X20 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X21 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=3.1302p pd=14.26u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X22 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=3.1302p ps=14.26u w=6.66u l=0.6u
+X23 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=3.1302p ps=14.26u w=6.66u l=0.6u
+X24 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X25 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X26 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X27 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X28 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X29 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X30 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X31 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=3.1302p pd=14.26u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X32 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X33 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X34 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X35 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X36 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X37 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X38 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+X39 iovdd a_5044_476# pad iovdd sg13_hv_pmos ad=2.1312p pd=7.3u as=3.9294p ps=7.84u w=6.66u l=0.6u
+X40 pad a_5044_476# iovdd iovdd sg13_hv_pmos ad=3.9294p pd=7.84u as=2.1312p ps=7.3u w=6.66u l=0.6u
+C0 a_5044_476# m3_10510_480# 0.0435f
+C1 m2_4940_480# m3_10510_480# 1.03787f
+C2 m3_6280_480# iovdd 4.87342f
+C3 m3_9900_480# m3_9300_480# 0.10734f
+C4 m3_5670_480# pad 0.58063f
+C5 a_5044_476# m3_8700_480# 0.04356f
+C6 m3_6890_480# pad 0.59613f
+C7 m2_4940_480# m3_8700_480# 1.03226f
+C8 m3_9900_480# m3_10510_480# 0.10734f
+C9 a_5044_476# a_13261_636# 0.01916f
+C10 m3_8090_480# pad 0.58069f
+C11 m3_7490_480# pad 0.5959f
+C12 iovdd pad 1.24096f
+C13 m3_5670_480# a_5044_476# 0.04349f
+C14 a_5044_476# m3_6890_480# 0.04356f
+C15 m3_5670_480# m2_4940_480# 1.04185f
+C16 m3_5070_480# pad 0.5959f
+C17 m2_4940_480# m3_6890_480# 1.03224f
+C18 m3_8700_480# m3_9300_480# 0.10734f
+C19 a_5044_476# m3_8090_480# 0.04162f
+C20 a_5044_476# m3_7490_480# 0.04417f
+C21 m2_4940_480# m3_8090_480# 1.04983f
+C22 m3_7490_480# m2_4940_480# 1.03393f
+C23 a_5044_476# iovdd 50.6662f
+C24 m2_4940_480# iovdd 59.358f
+C25 m3_5070_480# a_5044_476# 0.04319f
+C26 m3_6280_480# pad 0.58081f
+C27 m3_5070_480# m2_4940_480# 1.02721f
+C28 m3_9900_480# iovdd 4.96936f
+C29 iovdd m3_9300_480# 4.52983f
+C30 m3_6280_480# a_5044_476# 0.0435f
+C31 m3_6280_480# m2_4940_480# 1.04185f
+C32 m3_10510_480# iovdd 4.88512f
+C33 m3_8700_480# m3_8090_480# 0.10734f
+C34 m3_8700_480# iovdd 4.45993f
+C35 a_5044_476# pad 21.92764f
+C36 a_13261_636# iovdd 1.69644f
+C37 m2_4940_480# pad 45.24199f
+C38 m3_7490_480# m3_6890_480# 0.10734f
+C39 m3_5670_480# iovdd 4.87342f
+C40 iovdd m3_6890_480# 4.46216f
+C41 m3_9900_480# pad 0.58063f
+C42 m3_7490_480# m3_8090_480# 0.10734f
+C43 m3_5670_480# m3_5070_480# 0.10734f
+C44 iovdd m3_8090_480# 4.89063f
+C45 a_5044_476# m2_4940_480# 8.61396f
+C46 m3_7490_480# iovdd 4.48046f
+C47 m3_9300_480# pad 0.59587f
+C48 m3_10510_480# pad 0.58099f
+C49 m3_9900_480# a_5044_476# 0.04349f
+C50 m3_5070_480# iovdd 4.54302f
+C51 m3_9900_480# m2_4940_480# 1.04184f
+C52 m3_5670_480# m3_6280_480# 0.10734f
+C53 m3_6280_480# m3_6890_480# 0.10734f
+C54 m3_8700_480# pad 0.59599f
+C55 a_5044_476# m3_9300_480# 0.04355f
+C56 m2_4940_480# m3_9300_480# 1.03226f
+C57 pad iovss 1.58177f
+C58 iovdd iovss 7.40338f
+C59 m3_10510_480# iovss 0.1245f
+C60 m3_9900_480# iovss 0.06702f
+C61 m3_9300_480# iovss 0.06702f
+C62 m3_8700_480# iovss 0.06702f
+C63 m3_8090_480# iovss 0.06702f
+C64 m3_7490_480# iovss 0.0675f
+C65 m3_6890_480# iovss 0.06703f
+C66 m3_6280_480# iovss 0.06702f
+C67 m3_5670_480# iovss 0.06702f
+C68 m3_5070_480# iovss 0.11209f
+C69 m2_4940_480# iovss 2.52765f
+C70 a_13261_636# iovss 0.05224f
+C71 a_5044_476# iovss 24.5299f
+.ends
+
+.subckt sg13g2_Clamp_N20N0D pad iovss m3_10246_n96# m2_9886_n96# m2_9286_n96# m2_8676_n96#
++ m2_8076_n96# m2_7476_n96# m2_6866_n96# m2_9636_n96# m2_6266_n96# m2_5656_n96# m3_9886_n96#
++ m2_9036_n96# m2_8426_n96# m2_7826_n96# m3_9286_n96# m3_8676_n96# m2_5056_n96# w_n124_n124#
++ m2_7226_n96# m2_6616_n96# m3_8076_n96# m3_7476_n96# m3_6866_n96# m2_6016_n96# m2_5406_n96#
++ m3_9636_n96# m3_6266_n96# m3_5656_n96# m3_9036_n96# m3_8426_n96# m3_7826_n96# m3_5056_n96#
++ m3_7226_n96# m3_6616_n96# m3_6016_n96# m3_5406_n96# m2_10496_n96# a_13261_636# a_5044_476#
++ m3_10496_n96# m2_10846_n96# m2_10246_n96# m3_10846_n96#
+X0 pad a_5044_476# iovss iovss sg13_hv_nmos ad=2.596p pd=5.58u as=1.408p ps=5.04u w=4.4u l=0.6u
+X1 iovss a_5044_476# pad iovss sg13_hv_nmos ad=1.408p pd=5.04u as=2.596p ps=5.58u w=4.4u l=0.6u
+X2 pad a_5044_476# iovss iovss sg13_hv_nmos ad=2.596p pd=5.58u as=1.408p ps=5.04u w=4.4u l=0.6u
+X3 iovss a_5044_476# pad iovss sg13_hv_nmos ad=1.408p pd=5.04u as=2.596p ps=5.58u w=4.4u l=0.6u
+X4 a_5044_476# iovss iovss rppd l=3.54u w=0.5u
+X5 iovss a_5044_476# pad iovss sg13_hv_nmos ad=1.408p pd=5.04u as=2.596p ps=5.58u w=4.4u l=0.6u
+X6 pad a_5044_476# iovss iovss sg13_hv_nmos ad=2.596p pd=5.58u as=1.408p ps=5.04u w=4.4u l=0.6u
+X7 pad a_5044_476# iovss iovss sg13_hv_nmos ad=2.596p pd=5.58u as=1.408p ps=5.04u w=4.4u l=0.6u
+X8 iovss a_5044_476# pad iovss sg13_hv_nmos ad=1.408p pd=5.04u as=2.596p ps=5.58u w=4.4u l=0.6u
+X9 pad a_5044_476# iovss iovss sg13_hv_nmos ad=2.596p pd=5.58u as=1.408p ps=5.04u w=4.4u l=0.6u
+X10 iovss a_5044_476# pad iovss sg13_hv_nmos ad=1.408p pd=5.04u as=2.596p ps=5.58u w=4.4u l=0.6u
+X11 pad a_5044_476# iovss iovss sg13_hv_nmos ad=2.596p pd=5.58u as=1.408p ps=5.04u w=4.4u l=0.6u
+X12 iovss a_5044_476# pad iovss sg13_hv_nmos ad=2.068p pd=9.74u as=2.596p ps=5.58u w=4.4u l=0.6u
+X13 pad a_5044_476# iovss iovss sg13_hv_nmos ad=2.596p pd=5.58u as=2.068p ps=9.74u w=4.4u l=0.6u
+X14 iovss a_5044_476# pad iovss sg13_hv_nmos ad=1.408p pd=5.04u as=2.596p ps=5.58u w=4.4u l=0.6u
+X15 pad a_5044_476# iovss iovss sg13_hv_nmos ad=2.596p pd=5.58u as=1.408p ps=5.04u w=4.4u l=0.6u
+X16 iovss a_5044_476# pad iovss sg13_hv_nmos ad=1.408p pd=5.04u as=2.596p ps=5.58u w=4.4u l=0.6u
+X17 pad a_5044_476# iovss iovss sg13_hv_nmos ad=2.596p pd=5.58u as=1.408p ps=5.04u w=4.4u l=0.6u
+X18 iovss a_5044_476# pad iovss sg13_hv_nmos ad=1.408p pd=5.04u as=2.596p ps=5.58u w=4.4u l=0.6u
+X19 iovss a_5044_476# pad iovss sg13_hv_nmos ad=1.408p pd=5.04u as=2.596p ps=5.58u w=4.4u l=0.6u
+X20 pad a_5044_476# iovss iovss sg13_hv_nmos ad=2.596p pd=5.58u as=1.408p ps=5.04u w=4.4u l=0.6u
+C0 m3_9286_n96# m3_9036_n96# 0.05354f
+C1 m3_6016_n96# m2_6016_n96# 0.32671f
+C2 m2_9886_n96# m2_9636_n96# 0.0479f
+C3 m3_9636_n96# pad 0.18337f
+C4 m2_8426_n96# m3_8426_n96# 0.32671f
+C5 w_n124_n124# m2_10496_n96# 0.10084f
+C6 a_5044_476# m3_8426_n96# 0.00872f
+C7 m3_8076_n96# a_5044_476# 0.007f
+C8 w_n124_n124# m2_10246_n96# 0.10104f
+C9 pad m2_5056_n96# 1.30803f
+C10 pad m2_9886_n96# 1.27094f
+C11 a_13261_636# a_5044_476# 0.01778f
+C12 pad m3_5406_n96# 0.18187f
+C13 pad m3_5056_n96# 0.16956f
+C14 w_n124_n124# m2_9636_n96# 0.10012f
+C15 m2_6616_n96# w_n124_n124# 0.10085f
+C16 pad m3_8676_n96# 0.16559f
+C17 m3_5656_n96# a_5044_476# 0.00783f
+C18 m2_8676_n96# m3_8676_n96# 0.32671f
+C19 pad w_n124_n124# 1.25581f
+C20 m2_6866_n96# w_n124_n124# 0.10119f
+C21 m2_8676_n96# w_n124_n124# 0.10123f
+C22 pad m3_6266_n96# 0.17157f
+C23 m3_10846_n96# m2_10846_n96# 0.32823f
+C24 m2_8426_n96# a_5044_476# 0.16232f
+C25 m3_10846_n96# m3_10496_n96# 0.32296f
+C26 m2_6266_n96# m2_6016_n96# 0.0479f
+C27 m3_8676_n96# m3_8426_n96# 0.05354f
+C28 w_n124_n124# m3_8426_n96# 0.02043f
+C29 m3_8076_n96# w_n124_n124# 0.01984f
+C30 pad m3_6016_n96# 0.17564f
+C31 m2_5406_n96# pad 1.58403f
+C32 m3_9636_n96# a_5044_476# 0.00843f
+C33 m2_5056_n96# a_5044_476# 0.15384f
+C34 m3_5656_n96# m3_5406_n96# 0.05354f
+C35 m3_10246_n96# m2_10246_n96# 0.32671f
+C36 m2_9886_n96# a_5044_476# 0.16251f
+C37 m3_5656_n96# w_n124_n124# 0.02038f
+C38 m3_5406_n96# a_5044_476# 0.00872f
+C39 m2_7226_n96# pad 1.38892f
+C40 m3_5056_n96# a_5044_476# 0.00657f
+C41 m3_7476_n96# pad 0.1736f
+C42 m3_8676_n96# a_5044_476# 0.00783f
+C43 pad m2_7826_n96# 1.48019f
+C44 m2_8426_n96# w_n124_n124# 0.10077f
+C45 pad m2_9036_n96# 1.43313f
+C46 w_n124_n124# a_5044_476# 0.14915f
+C47 m3_6266_n96# a_5044_476# 0.00728f
+C48 m3_10246_n96# pad 0.1736f
+C49 m3_6866_n96# pad 0.16756f
+C50 m3_6866_n96# m2_6866_n96# 0.32671f
+C51 m3_5656_n96# m3_6016_n96# 0.31064f
+C52 m2_5056_n96# m3_5056_n96# 0.32671f
+C53 pad m2_6266_n96# 1.34729f
+C54 m3_9636_n96# w_n124_n124# 0.01968f
+C55 pad m2_8076_n96# 1.30803f
+C56 m2_5056_n96# w_n124_n124# 0.12022f
+C57 m3_6016_n96# a_5044_476# 0.00925f
+C58 m2_5406_n96# a_5044_476# 0.16232f
+C59 m2_9886_n96# w_n124_n124# 0.10119f
+C60 m3_5406_n96# m3_5056_n96# 0.32296f
+C61 pad m2_9286_n96# 1.38165f
+C62 pad m3_9886_n96# 0.16756f
+C63 pad m2_5656_n96# 1.23584f
+C64 m3_5406_n96# w_n124_n124# 0.02043f
+C65 w_n124_n124# m3_5056_n96# 0.04007f
+C66 m3_7226_n96# pad 0.1736f
+C67 w_n124_n124# m3_8676_n96# 0.02038f
+C68 m3_8076_n96# m2_8076_n96# 0.32671f
+C69 m2_7226_n96# a_5044_476# 0.16251f
+C70 m3_7476_n96# a_5044_476# 0.00757f
+C71 m3_6266_n96# w_n124_n124# 0.01994f
+C72 a_5044_476# m2_7826_n96# 0.16244f
+C73 a_5044_476# m2_9036_n96# 0.16248f
+C74 pad m3_9036_n96# 0.17564f
+C75 m3_10246_n96# a_5044_476# 0.00897f
+C76 m2_5406_n96# m3_5406_n96# 0.32671f
+C77 m3_6866_n96# a_5044_476# 0.00811f
+C78 w_n124_n124# m3_6016_n96# 0.02087f
+C79 m2_6266_n96# a_5044_476# 0.16252f
+C80 m2_5406_n96# w_n124_n124# 0.10077f
+C81 m3_6616_n96# m2_6616_n96# 0.32671f
+C82 m3_10496_n96# m2_10496_n96# 0.32671f
+C83 m3_6266_n96# m3_6016_n96# 0.05354f
+C84 m3_10846_n96# pad 0.17721f
+C85 m3_9286_n96# pad 0.17538f
+C86 m2_8076_n96# a_5044_476# 0.16252f
+C87 m3_6616_n96# pad 0.17978f
+C88 m3_5656_n96# m2_5656_n96# 0.32671f
+C89 a_5044_476# m2_9286_n96# 0.16252f
+C90 m3_7826_n96# pad 0.1777f
+C91 m3_9886_n96# a_5044_476# 0.00811f
+C92 m2_5656_n96# a_5044_476# 0.16249f
+C93 m2_7226_n96# w_n124_n124# 0.10104f
+C94 pad m2_10846_n96# 1.46357f
+C95 m3_7226_n96# a_5044_476# 0.00897f
+C96 m3_7476_n96# w_n124_n124# 0.02004f
+C97 w_n124_n124# m2_7826_n96# 0.10092f
+C98 pad m3_10496_n96# 0.17436f
+C99 w_n124_n124# m2_9036_n96# 0.10098f
+C100 m3_10246_n96# w_n124_n124# 0.02078f
+C101 m2_7476_n96# pad 1.38892f
+C102 m3_9036_n96# a_5044_476# 0.00925f
+C103 m3_8076_n96# m3_7826_n96# 0.05354f
+C104 m3_9636_n96# m3_9886_n96# 0.05354f
+C105 m3_6866_n96# w_n124_n124# 0.02048f
+C106 m3_9886_n96# m2_9886_n96# 0.32671f
+C107 w_n124_n124# m2_6266_n96# 0.1011f
+C108 m3_6266_n96# m2_6266_n96# 0.32671f
+C109 m2_8076_n96# w_n124_n124# 0.10115f
+C110 m3_10846_n96# a_5044_476# 0.00813f
+C111 m3_9286_n96# a_5044_476# 0.00728f
+C112 w_n124_n124# m2_9286_n96# 0.10018f
+C113 m3_6616_n96# a_5044_476# 0.00843f
+C114 m3_9886_n96# w_n124_n124# 0.02048f
+C115 w_n124_n124# m2_5656_n96# 0.10123f
+C116 m3_7226_n96# w_n124_n124# 0.02078f
+C117 m3_7826_n96# a_5044_476# 0.00814f
+C118 a_5044_476# m2_10846_n96# 0.16207f
+C119 m3_9636_n96# m3_9286_n96# 0.32296f
+C120 m3_8676_n96# m3_9036_n96# 0.31064f
+C121 a_5044_476# m3_10496_n96# 0.00756f
+C122 w_n124_n124# m3_9036_n96# 0.02087f
+C123 pad m2_6016_n96# 1.43313f
+C124 m2_7476_n96# a_5044_476# 0.16251f
+C125 m2_5406_n96# m2_5656_n96# 0.0479f
+C126 m2_10496_n96# m2_10246_n96# 0.0479f
+C127 m2_8076_n96# m2_7826_n96# 0.0479f
+C128 m3_10846_n96# w_n124_n124# 0.04243f
+C129 m3_9286_n96# w_n124_n124# 0.01928f
+C130 m3_6616_n96# w_n124_n124# 0.02034f
+C131 m3_6616_n96# m3_6266_n96# 0.32296f
+C132 m2_7226_n96# m3_7226_n96# 0.32671f
+C133 m2_9036_n96# m2_9286_n96# 0.0479f
+C134 m3_7226_n96# m3_7476_n96# 0.05354f
+C135 m3_7826_n96# w_n124_n124# 0.02024f
+C136 pad m2_10496_n96# 1.40943f
+C137 w_n124_n124# m2_10846_n96# 0.12253f
+C138 pad m2_10246_n96# 1.38892f
+C139 m3_10246_n96# m3_9886_n96# 0.31064f
+C140 w_n124_n124# m3_10496_n96# 0.0201f
+C141 m3_6866_n96# m3_7226_n96# 0.31064f
+C142 m2_7476_n96# w_n124_n124# 0.10104f
+C143 pad m2_9636_n96# 1.56423f
+C144 m3_9036_n96# m2_9036_n96# 0.32671f
+C145 pad m2_6616_n96# 1.53038f
+C146 m2_6616_n96# m2_6866_n96# 0.0479f
+C147 a_5044_476# m2_6016_n96# 0.16248f
+C148 pad m2_6866_n96# 1.27094f
+C149 m2_8676_n96# pad 1.23584f
+C150 m3_7476_n96# m3_7826_n96# 0.32296f
+C151 m3_7826_n96# m2_7826_n96# 0.32671f
+C152 pad m3_8426_n96# 0.18187f
+C153 m3_8076_n96# pad 0.16956f
+C154 m3_6616_n96# m3_6866_n96# 0.05354f
+C155 a_5044_476# m2_10496_n96# 0.16248f
+C156 a_5044_476# m2_10246_n96# 0.16251f
+C157 m2_7226_n96# m2_7476_n96# 0.0479f
+C158 m3_7476_n96# m2_7476_n96# 0.32671f
+C159 m3_10246_n96# m3_10496_n96# 0.05354f
+C160 m3_5656_n96# pad 0.16559f
+C161 w_n124_n124# m2_6016_n96# 0.10098f
+C162 m3_9286_n96# m2_9286_n96# 0.32671f
+C163 m3_8076_n96# m3_8426_n96# 0.32296f
+C164 a_5044_476# m2_9636_n96# 0.16239f
+C165 m2_6616_n96# a_5044_476# 0.16239f
+C166 m2_8426_n96# pad 1.58403f
+C167 m2_8676_n96# m2_8426_n96# 0.0479f
+C168 pad a_5044_476# 8.52091f
+C169 m2_8676_n96# a_5044_476# 0.16249f
+C170 m2_6866_n96# a_5044_476# 0.16251f
+C171 m3_9636_n96# m2_9636_n96# 0.32671f
+C172 pad iovss 2.52857f
+C173 m3_10846_n96# iovss 1.37297f
+C174 m3_10496_n96# iovss 1.46185f
+C175 m3_10246_n96# iovss 1.46254f
+C176 m3_9886_n96# iovss 1.64583f
+C177 m3_9636_n96# iovss 1.31636f
+C178 m3_9286_n96# iovss 1.51784f
+C179 m3_9036_n96# iovss 1.41052f
+C180 m3_8676_n96# iovss 1.71807f
+C181 m3_8426_n96# iovss 1.27457f
+C182 m3_8076_n96# iovss 1.5789f
+C183 m3_7826_n96# iovss 1.36148f
+C184 m3_7476_n96# iovss 1.4618f
+C185 m3_7226_n96# iovss 1.46254f
+C186 m3_6866_n96# iovss 1.64583f
+C187 m3_6616_n96# iovss 1.31652f
+C188 m3_6266_n96# iovss 1.518f
+C189 m3_6016_n96# iovss 1.41052f
+C190 m3_5656_n96# iovss 1.71807f
+C191 m3_5406_n96# iovss 1.27457f
+C192 m3_5056_n96# iovss 1.58942f
+C193 m2_10846_n96# iovss 1.56087f
+C194 m2_10496_n96# iovss 1.65881f
+C195 m2_10246_n96# iovss 1.65904f
+C196 m2_9886_n96# iovss 1.84994f
+C197 m2_9636_n96# iovss 1.50561f
+C198 m2_9286_n96# iovss 1.7177f
+C199 m2_9036_n96# iovss 1.60435f
+C200 m2_8676_n96# iovss 1.92448f
+C201 m2_8426_n96# iovss 1.46109f
+C202 m2_8076_n96# iovss 1.7813f
+C203 m2_7826_n96# iovss 1.55337f
+C204 m2_7476_n96# iovss 1.65904f
+C205 m2_7226_n96# iovss 1.65904f
+C206 m2_6866_n96# iovss 1.84994f
+C207 m2_6616_n96# iovss 1.50573f
+C208 m2_6266_n96# iovss 1.71785f
+C209 m2_6016_n96# iovss 1.60435f
+C210 m2_5656_n96# iovss 1.92448f
+C211 m2_5406_n96# iovss 1.46109f
+C212 m2_5056_n96# iovss 1.79167f
+C213 a_13261_636# iovss 0.50104f
+C214 a_5044_476# iovss 31.3815f
+C215 w_n124_n124# iovss 11.9618f
+.ends
+
+.subckt clamps VDD VSS pad guard
+Xsg13g2_Clamp_P20N0D_0 pad VDD VSS guard guard guard guard guard guard guard guard
++ guard guard sg13g2_Clamp_P20N0D_0/a_5044_476# guard sg13g2_Clamp_P20N0D
+Xsg13g2_Clamp_N20N0D_0 pad VDD guard guard guard guard guard guard guard guard guard
++ guard guard guard guard guard guard guard guard VSS guard guard guard guard guard
++ guard guard guard guard guard guard guard guard guard guard guard guard guard guard
++ sg13g2_Clamp_N20N0D_0/a_13261_636# sg13g2_Clamp_N20N0D_0/a_5044_476# guard guard
++ guard guard sg13g2_Clamp_N20N0D
+C0 guard pad 11.60884f
+C1 sg13g2_Clamp_P20N0D_0/a_5044_476# VSS 0.02836f
+C2 sg13g2_Clamp_N20N0D_0/a_5044_476# VSS 0.01201f
+C3 sg13g2_Clamp_P20N0D_0/a_5044_476# sg13g2_Clamp_N20N0D_0/a_5044_476# 0.02444f
+C4 guard VSS 4.89266f
+C5 pad VSS 0
+C6 sg13g2_Clamp_P20N0D_0/a_5044_476# guard 0.01573f
+C7 sg13g2_Clamp_P20N0D_0/a_5044_476# pad 0
+C8 guard sg13g2_Clamp_N20N0D_0/a_5044_476# 0.05014f
+C9 pad sg13g2_Clamp_N20N0D_0/a_5044_476# 0.00574f
+C10 pad VDD 6.07235f
+C11 guard VDD 75.53967f
+C12 sg13g2_Clamp_N20N0D_0/a_13261_636# VDD 0.56457f
+C13 sg13g2_Clamp_N20N0D_0/a_5044_476# VDD 31.6417f
+C14 VSS VDD 28.44882f
+C15 sg13g2_Clamp_P20N0D_0/a_13261_636# VDD 0.05224f
+C16 sg13g2_Clamp_P20N0D_0/a_5044_476# VDD 24.53128f
+.ends
+

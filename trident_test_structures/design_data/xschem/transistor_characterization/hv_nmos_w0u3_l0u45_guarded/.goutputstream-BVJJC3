@@ -1,0 +1,28 @@
+# HV NMOS minimum size W0u3_L0u3
+
+As leakage currents will be of paramount importance in the trident chip, it is worth reproducing
+the leakage measurements in a setup made specifically for it.
+
+The plan is to use fully guarded test structure with no ESD protection, and measure
+it under the same setup that was use to characterize previous chips (UTOPIA, ACCURATE) made by the HSE-RP-IL section.
+It uses ultra-low current cable such as the internal pair of the SPA6 cable, the keithley 6430 and
+an unpackaged chip bonded on a guarded PCB.
+
+
+## IHP Characterization
+
+IHP has already made characterization for the minimum size HV NMOS.
+The values of interest in this instance are the gate leakage and the drain to source leakage for Vd=0.1 and T=27°C
+
+![Measured gate leakage](./images/W0u3_L0u3_Vd_0.1_T_27_Ig.png)
+![Measured drain to source leakage](./images/W0u3_L0u3_Vd_0.1_T_27_Id.png)
+
+## SPICE Models
+
+Provided spice models do not seem to take into account either the gate leakage.
+The drain to source leakage in deep subthreshold regime shows large difference
+to the measurements.
+
+
+![Simulated gate leakage](images/hv_nmos_min_size_gate_leakage.svg)
+![Simulated drain to source leakage](images/hv_nmos_min_size_drain_to_source_leakage.svg)

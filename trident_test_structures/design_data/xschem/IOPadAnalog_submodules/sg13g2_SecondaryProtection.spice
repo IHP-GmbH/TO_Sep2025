@@ -1,0 +1,18 @@
+* SPICE3 file created from sg13g2_SecondaryProtection.ext - technology: ihp-sg13g2
+
+X0 core iovdd dpantenna l=0.16u w=13.065u
+X1 core pad rppd l=2u w=1u
+X2 iovss core dantenna l=0 w=0
+C0 guard a_188_274# 0.03398f
+C1 pad core 0.01196f
+C2 pad a_188_274# 0.03018f
+C3 iovdd core 1.29944f
+C4 a_188_274# core 0.04325f
+C5 pad guard 0.97071f
+C6 guard core 0.0625f
+C7 iovdd guard 0.00513f
+C8 guard iovss 0.46037f
+C9 pad iovss 0.33228f
+C10 core iovss 1.90774f
+C11 iovdd iovss 0.5508f
+C12 a_188_274# iovss 0.42968f
