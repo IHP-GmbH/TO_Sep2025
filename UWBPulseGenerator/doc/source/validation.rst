@@ -1,4 +1,4 @@
-Validation  of the Amazing Design
+Validation  of the UWB Pulse Generator
 #################################
 
 

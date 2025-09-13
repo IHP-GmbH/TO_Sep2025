@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_UWB_Pulse_Generator",
+  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "FMD_QNC_UWB_Pulse_Generator",
+    "FinalGdsName": "FMD_QNC_UWB_Pulse_Generator.gds",
+    "TopCellName": "FMD_QNC_UWB_Pulse_Generator",
+    "Width": "0.500mm",
+    "Height": "0.500mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}
