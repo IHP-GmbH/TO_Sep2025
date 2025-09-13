@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FORTALESA",
+  "Shuttle": "MPW 0.13µm Sep 2025(T594)",
+  "Technology": "SG13CMOS",
+  "Design": {
+    "DesignName": "fortalesa_chip",
+    "FinalGdsName": "fortalesa_chip_final.gds",
+    "TopCellName": "fortalesa_chip",
+    "Width": "3.500mm",
+    "Height": "3.500mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}
