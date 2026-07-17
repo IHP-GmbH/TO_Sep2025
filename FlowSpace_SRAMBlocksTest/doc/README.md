@@ -37,9 +37,11 @@ The inputs shift register consists of a shift register with input `in_srin` and 
 
 For the SRAM outputs shift register the `out_latch` signal will capture the outputs of the SRAM block in a set of register. When `out_l2s` is high the outputs of this set is then connected to the inputs of the shift register by a MUX. When `out_l2s` is low the output of the previous register in the shift register is connect to the input of the next register. `out_shift` is then the clock for the shift register. So after having latched the outputs into the set of registers using `out_latch`, one `out_shift` cycle needs to be done with `out_l2s` high followed by several `out_shift` cycles with `out_l2s` low to shift out the value of the captured outputs. Also here a `out_srin` is provided that can be used to connect the output of another shift register to the input of this shift register.
 
-### on-chip delay calibration
+### Top block
 
-The timing of signals of the SRAM block is thus determined by the `in_latch` and `out_latch` signals. The third signal if the `clk` signal of the SRAM block itself that will also be provided as a test signal. In order to be able to calibrate the on-chip delay of the `in_latch` and `out_latch` signal relative to `clk` signal of the SRAM a special version of the outputs shift register is in the design. This is a two stage version of the outputs shift register with `in_latch` connected to `o(0)`, `out_latch` to `o(1)` and `clk` to `out_latch`. When shifting timing of the `*_latch` relative to `clk` one can see when old or new values is latched into this shift register.
+![top_schema](top_schema.png)
+
+Above picture shows how this is combined on the top block. The order of the bits in the shift register will be documented below.
 
 ## SRAM blocks test chip pin-outs and shift register order
 
@@ -118,6 +120,36 @@ In order to fit all signals in the 20 pad frame three signals have been shared b
 As said in the contents section, for the dual port block on this design, port 1 and port 2 can't be used asynchronously so clk1 and clk2 signal have to be driven by the same signal. This assumes on-chip delay for the two signals are the same.
 
 ## Measurement procedures
+
+### Measurement timings
+
+An operation on the SRAM block is done in 3 phases: `shift_in`, `execute` and `shift_out`. There is a timing sequence to calibrate on-chip delay `delay_cal`.
+
+___delay_cal___
+
+![delay_cal](delay_cal.png)
+
+As seen in the schema of the top block above the first two bits of the output shit register are latched by the `clk` signal and the inputs are `in_latch` and `out_latch`. By varying the rising edge of `in_latch` and `out_latch` relative to the one of `clk` different values will be latched into the output shift register as shown in the picture. This is locally to the SRAM block and thus includes the on-chip delay.
+
+___shift_in___
+
+![shift_in](shift_in.png)
+
+For shifting in data for the SRAM input signals one clocks `in_shift` with providing the serial data on `in_srin`
+
+___execute___
+
+![execute](execute.png)
+
+In the execute cycle first a rising edge on `in_latch` is done so the data shifted into the input shift register is put on the inputs of the SRAM block. Then a rising edge on `clk` is done to do the operation on the SRAM block which will then present the output `q[]` after a delay. Finally a rising edge on `out_latch` is done to latch the output into the output shift register.  
+To complete the execute cycle `in_latch`, `clk` and `out_latch` are switched to low value. Relative timing of this falling edge is not important.  
+In the sub-chapters below it is explained how variation in relative timing of the rising edge of `in_latch`, `clk` and `out_latch` can be used to measure setup and delay timings of the SRAM block.
+
+___shift_out___
+
+![shift_out](shift_out.png)
+
+For shifting out data for the SRAM output signals one first does one clock cycle on `out_shift` with `out_l2s` high and further cycles with `out_l2s` low. In the first cycle the internal shift register is loaded with the latched SRAM output and the first bit already needs to be captured from `out_srout`. In the next cycles then each time `out_srout` has to be captured.
 
 ### Calibration of on-chip delays
 
